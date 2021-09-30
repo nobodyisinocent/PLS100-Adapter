@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name adapt_prog_eprom-rescue)(type Legacy)(uri ${KIPRJMOD}/adapt_prog_eprom-rescue.lib)(options "")(descr ""))
+)

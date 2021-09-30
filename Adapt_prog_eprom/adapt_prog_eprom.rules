@@ -1,0 +1,81 @@
+
+(rules PCB adapt_prog_eprom
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 822)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.4)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 1.4)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clear 200.2)
+    (clear 125.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_800:400_um"
+    (shape
+      (circle F.Cu 800.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 800.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_800:400_um" "Via[0-1]_800:400_um" default
+  )
+  (via 
+    "Via[0-1]_800:400_um-kicad_default" "Via[0-1]_800:400_um" "kicad_default"
+  )
+  (via_rule
+    default "Via[0-1]_800:400_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_800:400_um-kicad_default"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND Zif28 "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(Q1-Pad3)" "Net-(D6-Pad1)" "Net-(D4-Pad2)" "Net-(D3-Pad2)"
+    "Net-(D7-Pad1)" "Net-(Q2-Pad3)" Zif15 "Net-(U1-Pad39)" Zif16 "Net-(U1-Pad38)" Zif17 "Net-(U1-Pad37)"
+    Zif18 "Net-(U1-Pad36)" Zif2 "Net-(U1-Pad35)" Zif3 Zif4 "Net-(U1-Pad33)" Zif5
+    Zif6 Zif21 Zif7 Zif22 Zif8 Zif23 Zif9 Zif24
+    Zif20 Zif25 Zif26 Zif19 Zif27 Zif10 "Net-(U1-Pad4)" Zif11
+    "Net-(U1-Pad3)" Zif12 "Net-(U1-Pad2)" Zif13 Zif1 "Net-(D5-Pad1)" "Net-(D7-Pad2)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)
