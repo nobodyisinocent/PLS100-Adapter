@@ -21,7 +21,7 @@ The prototype has been assembled, tested and validated by Lolof.
 ![1633015156824_resultat](https://user-images.githubusercontent.com/80821708/135588524-aefd67b9-7a7a-4eac-bbe9-160f5e8a7088.jpg)
 
 # Adapter onto the ALL-03 programmer
-Please, be aware with the orientation of the adapter and the PLA onto the programmer. This orientation is the same for the ALL-07 programmer.
+Please pay attention to the orientation of the adapter and the PLA onto the programmer. This orientation is the same for the ALL-07 programmer.
 A wrong orientation will destroy the PLA.
 
 ![1633026784102_resultat](https://user-images.githubusercontent.com/80821708/135588559-c5fdf837-8838-4d8e-ba8b-8952af01e64c.jpg)
