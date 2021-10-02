@@ -31,4 +31,6 @@ A wrong orientation will destroy the PLA.
 # About the project files
 The complete project is available here for downloading.
 
-The project has been made with Kicad and FreeRooting under Linux.
+The project has been made with Kicad: https://www.kicad.org/
+
+and FreeRooting: https://github.com/freerouting/freerouting under Linux.
