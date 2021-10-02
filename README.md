@@ -8,7 +8,7 @@ This adapter is useful for programming PLS100 PLA with ALL-03 & ALL-07 programme
 
 The schematic of the adapter has been made by Tinhead. Many thanks to him for his autorization of the publication of this adapter.
 
-For informations about the Li-LO universal parallel programmer, you can visit the following very interesting ressources page made by Matthieu Benoit:
+For informations about the Hi-Lo universal parallel programmer, you can visit the following very interesting resources page made by Matthieu Benoit:
 http://matthieu.benoit.free.fr/hilosystem_all-07_universal_programmer.htm
 
 # Prototype adapter's pictures:
@@ -27,3 +27,8 @@ A wrong orientation will destroy the PLA.
 ![1633026784102_resultat](https://user-images.githubusercontent.com/80821708/135588559-c5fdf837-8838-4d8e-ba8b-8952af01e64c.jpg)
 
 ![1633026784117_resultat](https://user-images.githubusercontent.com/80821708/135588572-e705a10a-a0a5-4c49-9695-b97456b70c08.jpg)
+
+# About the project files
+The complete project is available here for downloading.
+
+The project has been made with Kicad and FreeRooting under Linux.
