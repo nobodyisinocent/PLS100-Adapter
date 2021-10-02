@@ -8,7 +8,7 @@ This adapter is useful for programming PLS100 PLA with ALL-03 & ALL-07 programme
 
 The schematic of the adapter has been made by Tinhead. Many thanks to him for his autorization of the publication of this adapter.
 
-For informations about the Hi-Lo universal parallel programmer, you can visit the following very interesting resources page made by Matthieu Benoit:
+For informations about the HI-LO universal parallel programmer, you can visit the following very interesting resources page made by Matthieu Benoit:
 http://matthieu.benoit.free.fr/hilosystem_all-07_universal_programmer.htm
 
 # Prototype adapter's pictures:
