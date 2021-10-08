@@ -1,9 +1,18 @@
-# PLS100 PCB Adapter
+# Table of contents
+1. [PLS100 PCB Adapter final version](#PLS100-PCB-Adapter)
+2. [Why a such adapter](#Why-a-such-adapter)
+3. [Prototype adapter's pictures](#Prototype-adapter-pictures)
+4. [Adapter onto the ALL-03 programmer](#Adapter-onto-the-ALL-03-programmer)
+5. [About the project files](#About-the-project-files)
+6. [BOM](#BOM)
+
+
+# PLS100 PCB Adapter final version <a name="PLS100-PCB-Adapter"></a>
 
 ![pcb-final](https://user-images.githubusercontent.com/80821708/135584468-13270c0e-cef6-4cf4-8371-452aca3065be.png)
 Final version of the pcb's adapter.
 
-# Why a such adapter
+# Why a such adapter <a name="Why-a-such-adapter"></a>
 This adapter is useful for programming PLS100 PLA with ALL-03 & ALL-07 programmers to replace the orignal PLA chip of the Commodore 64.
 
 The schematic of the adapter has been made by Tinhead. Many thanks to him for his autorization of the publication of this adapter.
@@ -11,7 +20,7 @@ The schematic of the adapter has been made by Tinhead. Many thanks to him for hi
 For informations about the HI-LO universal parallel programmer, you can visit the following very interesting resources page made by Matthieu Benoit:
 http://matthieu.benoit.free.fr/hilosystem_all-07_universal_programmer.htm
 
-# Prototype adapter's pictures:
+# Prototype adapter's pictures: <a name="Prototype-adapter-pictures"></a>
 The prototype has been assembled, tested and validated by Lolof.
 
 ![1633015156800](https://user-images.githubusercontent.com/80821708/135536298-2cba94d8-4857-4d01-be51-67288b8df728.jpg)
@@ -20,7 +29,7 @@ The prototype has been assembled, tested and validated by Lolof.
 
 ![1633015156824_resultat](https://user-images.githubusercontent.com/80821708/135588524-aefd67b9-7a7a-4eac-bbe9-160f5e8a7088.jpg)
 
-# Adapter onto the ALL-03 programmer
+# Adapter onto the ALL-03 programmer <a name="Adapter-onto-the-ALL-03-programmer"></a>
 Please pay attention to the orientation of the adapter and the PLA onto the programmer. This orientation is the same for the ALL-07 programmer.
 A wrong orientation will destroy the PLA.
 
@@ -28,14 +37,14 @@ A wrong orientation will destroy the PLA.
 
 ![1633026784117_resultat](https://user-images.githubusercontent.com/80821708/135588572-e705a10a-a0a5-4c49-9695-b97456b70c08.jpg)
 
-# About the project files
+# About the project files <a name="About-the-project-files"></a>
 The complete project is available here for downloading.
 
 The project has been made with Kicad: https://www.kicad.org/
 
 and FreeRooting: https://github.com/freerouting/freerouting under Linux.
 
-#BOM
+# BOM <a name="BOM"></a>
 Here is the BOM made by Lolof. Thanks to him !
 
 |Id	|Designator	|Package	|Quantity	|Designation	|Reichelt part number	|Link  |
